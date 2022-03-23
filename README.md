@@ -4,4 +4,4 @@ PortMaster installed on your device is required for this script to work. Follow 
 
 https://github.com/christianhaitian/PortMaster
 
-After PortMaster is installed save ChangeTime.sh to your "ports" folder and run the script.
+After PortMaster is installed save ChangeTime.sh to your "ports" folder and run the script. If everything is setup correctly then you should get a blue screen with a "Change Time", "Change Date", and "Exit" menu.
