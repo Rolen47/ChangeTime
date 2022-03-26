@@ -72,7 +72,7 @@ ChangeTime() {
 	desired_time=$("${show_dialog[@]}" 2>&1 > /dev/tty0) || MainMenu
 	if [ "$desired_time" != "" ]; then
 		$ESUDO date +%T -s "$desired_time"
-		$ESUDO hwclock -w
+		$ESUDO hwclock --systohc --utc
 	fi
 }
 
@@ -84,7 +84,7 @@ ChangeDate() {
 	if [ "$desired_date" != "" ]; then
 		current_time=`date +%H:%M:%S`
 		$ESUDO date +%Y-%m-%d -s "$desired_date $current_time"
-		$ESUDO hwclock -w
+		$ESUDO hwclock --systohc --utc
 	fi
 }
 
