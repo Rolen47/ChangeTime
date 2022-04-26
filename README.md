@@ -6,4 +6,4 @@ https://github.com/christianhaitian/PortMaster
 
 After PortMaster is installed save ChangeTime.sh to your "ports" folder and restart EmulationStation for it to show up in our Ports list. For those unfamiliar with Github, click on the green "Code" button and select "Download Zip".
 
-If everything is setup correctly then you should get a blue screen with a "Change Time", "Change Date", and "Exit" menu.
+If everything is setup correctly then after you run ChangeTime.sh you should get a blue menu screen with a "Change Time", "Change Date", and "Exit" menu.
